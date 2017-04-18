@@ -294,7 +294,7 @@ footer {
 
   header ul, header p.view {
     position:static;
-    color: #000;
+    /*color: #000;*/
   }
 
   pre, code {
