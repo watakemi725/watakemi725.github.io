@@ -54,6 +54,51 @@
        url('../fonts/Noto-Sans-700italic/Noto-Sans-700italic.svg#NotoSans') format('svg');
 }
 
+.header-hero {
+    background: #000000;
+    padding: 0;
+    margin: 54px 0;
+}
+.header-hero h1 {
+  padding: 0;
+  margin: 0;
+  line-height: 1;
+  font-weight: normal;
+  font-size: 17px;
+  letter-spacing: 3px;
+  clear: none;
+  color: #ffffff;
+  font-family: 'Lato', sans-serif;
+}
+
+.header-hero ul {
+    list-style-type: none;
+    margin: 33px 0 0;
+    padding: 0;
+    font-size: 12px;
+    letter-spacing: 2px;
+    font-family: 'Lato', sans-serif;
+
+}
+.header-hero ul li {
+    float: left;
+    margin-right: 88px;
+    line-height: 8px;
+    color: #ffffff;
+}
+.header-hero ul li :hover{
+background: #ffffff;
+color: #000000;
+}
+.header-hero ul li a{
+  color: #ffffff;
+}
+.header-hero ul li.last {
+    float: right;
+    margin-right: 0px;
+    text-shadow: none;
+}
+
 body {
   background-color: #fff;
   padding:50px;
@@ -158,12 +203,12 @@ img {
 }
 
 header {
-  width:270px;
-  float:left;
-  position:fixed;
+  /*width:270px;*/
+  /*float:left;*/
+  /*position:fixed;*/
   -webkit-font-smoothing:subpixel-antialiased;
 }
-
+/*
 header ul {
   list-style:none;
   height:40px;
@@ -187,9 +232,9 @@ header li:first-child a {
 
 header li:last-child a {
   border-radius:0 5px 5px 0;
-}
+}*/
 
-header ul a {
+/*header ul a {
   line-height:1;
   font-size:11px;
   color:#999;
@@ -197,7 +242,7 @@ header ul a {
   text-align:center;
   padding-top:6px;
   height:34px;
-}
+}*/
 
 header ul a:hover {
   color:#999;
@@ -224,8 +269,8 @@ header ul a strong {
 }
 
 section {
-  width:500px;
-  float:right;
+  /*width:500px;*/
+  /*float:right;*/
   padding-bottom:50px;
 }
 
@@ -252,17 +297,18 @@ footer {
 
   div.wrapper {
     width:auto;
-    margin:0;
+    /*margin:0;*/
   }
 
-  header, section, footer {
+  /*header, section, footer {
     float:none;
     position:static;
     width:auto;
-  }
+  }*/
 
   header {
-    padding-right:320px;
+    width: 770px;
+    /*padding-right:320px;*/
   }
 
   section {
@@ -271,7 +317,7 @@ footer {
     padding:20px 0;
     margin:0 0 20px;
   }
-
+/*
   header a small {
     display:inline;
   }
@@ -280,14 +326,14 @@ footer {
     position:absolute;
     right:50px;
     top:52px;
-  }
+  }*/
 }
 
 @media print, screen and (max-width: 720px) {
   body {
     word-wrap:break-word;
   }
-
+/*
   header {
     padding:0;
   }
@@ -295,13 +341,13 @@ footer {
   header ul, header p.view {
     position:static;
     color:#000;
-  }
+  }*/
 
   pre, code {
     word-wrap:normal;
   }
 }
-
+/*
 @media print, screen and (max-width: 480px) {
   body {
     padding:15px;
@@ -314,7 +360,7 @@ footer {
   header li, header ul li + li + li {
     width:33%;
   }
-}
+}*/
 
 @media print {
   body {
