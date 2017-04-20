@@ -99,6 +99,8 @@ color: #000000;
     text-shadow: none;
 }
 
+
+
 body {
   background-color: #fff;
   padding:50px;
@@ -316,6 +318,13 @@ footer {
     border-width:1px 0;
     padding:20px 0;
     margin:0 0 20px;
+  }
+  section p{
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 1px;
+    line-height: 20px;
+    color: #000000;
   }
 /*
   header a small {
