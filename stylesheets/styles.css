@@ -101,6 +101,7 @@ color: #000000;
 
 
 
+
 body {
   background-color: #fff;
   padding:50px;
@@ -274,6 +275,44 @@ section {
   /*width:500px;*/
   /*float:right;*/
   padding-bottom:50px;
+}
+
+.flexbox {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+}
+
+.item {
+  /*background: #edf;*/
+
+border: solid #000000;border-width: thin;
+
+  padding: 15px;
+  margin: 5px;
+  text-align: center;
+}
+
+.item img {
+  max-width: 100%;
+  height: auto;
+}
+.item p {
+  text-align: left;
+}
+
+/* Responsive */
+@media ( min-width : 600px ){
+    .flexbox {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    }
+  .item {
+    width: 25%;
+  }
 }
 
 small {
