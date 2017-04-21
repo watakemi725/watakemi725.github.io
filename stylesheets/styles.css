@@ -300,6 +300,17 @@ section {
   text-align: left;
   font-family: 'Lato', sans-serif;
 }
+.item a {
+  color: #000000;
+}
+.item:hover{
+background: #c93389;
+color: #ffffff;
+border: solid #ffffff;border-width: thin;
+
+
+}
+
 
 /* Responsive */
 @media ( min-width : 600px ){
