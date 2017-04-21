@@ -331,6 +331,27 @@ color: #ffffff;
   text-align: center;
 }
 
+.contactface{
+
+  position: fixed;
+  top: 50%;
+  right: 79%;
+  -webkit-transform: rotate(-90deg);
+  z-index: 1000;
+
+}
+.contactface a{
+  margin: 0 2px;
+  padding: 2px;
+  font-family: 'Lato', sans-serif;
+  /*font-style: thin;*/
+  font-size: 13px;
+
+  letter-spacing: 2px;
+  color: #ffffff;
+  background: #000000;
+
+}
 
 /* Responsive */
 @media ( min-width : 600px ){
