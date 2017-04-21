@@ -291,6 +291,11 @@ section {
   -webkit-justify-content: space-between;
   justify-content: space-between;
 }
+.flexbox::after{
+  content:"";
+  display: block;
+  width:30%;
+}
 
 .item {
   /*background: #edf;*/
@@ -308,7 +313,7 @@ section {
   text-align: left;
   font-family: 'Lato', sans-serif;
   font-style: thin;
-  font-size: 15px;
+  /*font-size: 15px;*/
   letter-spacing: 2px;
 }
 .item a {
