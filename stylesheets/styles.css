@@ -319,6 +319,10 @@ color: #ffffff;
 
 }
 
+.movie {
+  text-align: center;
+}
+
 
 /* Responsive */
 @media ( min-width : 600px ){
