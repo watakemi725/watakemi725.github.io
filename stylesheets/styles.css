@@ -58,12 +58,12 @@
        url('../fonts/Noto-Sans-700italic/Noto-Sans-700italic.svg#NotoSans') format('svg');*/
 }
 /*---------------実験-------------*/
-.header-hero2 {
+.header-hero {
     background: #000000;
     padding: 0;
     margin: 54px 0;
 }
-.header-hero2 h1 {
+.header-hero h1 {
   padding: 0;
   margin: 0;
   line-height: 1;
@@ -75,7 +75,7 @@
   font-family: 'Lato', sans-serif;
 }
 
-.header-hero2 ul {
+.header-hero ul {
   display: flex;
   flex-flow: row;
   justify-content: space-around;
@@ -89,20 +89,20 @@
     letter-spacing: 2px;
     font-family: 'Lato', sans-serif;
 }
-.header-hero2 ul li {
+.header-hero ul li {
     float: left;
     margin-right: 88px;
     line-height: 8px;
     color: #ffffff;
 }
-.header-hero2 ul li :hover{
+.header-hero ul li :hover{
 background: #ffffff;
 color: #000000;
 }
-.header-hero2 ul li a{
+.header-hero ul li a{
   color: #ffffff;
 }
-.header-hero2 ul li.last {
+.header-hero ul li.last {
     float: right;
     margin-right: 0px;
     text-shadow: none;
@@ -215,6 +215,18 @@ a small {
 
 a:hover small {
   color:#777;
+}
+
+.link{
+  background: #000000;
+  color: #ffffff;
+  font-size: 12px;
+  letter-spacing: 2px;
+  font-family: 'Lato',sans-serif;
+}
+.link:hover{
+  background: #000000;
+  color: #ffffff;
 }
 
 .wrapper {
@@ -382,9 +394,21 @@ color: #ffffff;
 
 }
 
-.movie {
+.box1 {
   text-align: center;
+  margin-bottom: 10px;
 }
+.narabe {
+  display: flex;
+  flex-flow: row;
+}
+.narabe img {
+  width: 25%;
+  height: 25%;
+  margin: 0 10px;
+}
+
+
 
 .contactface{
 
