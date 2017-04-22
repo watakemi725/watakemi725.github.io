@@ -398,6 +398,10 @@ color: #ffffff;
   text-align: center;
   margin-bottom: 10px;
 }
+.box2 {
+  text-align: center;
+  margin-bottom: 50px;
+}
 .narabe {
   display: flex;
   flex-flow: row;
