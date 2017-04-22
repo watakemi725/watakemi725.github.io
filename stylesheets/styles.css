@@ -335,7 +335,7 @@ color: #ffffff;
 
   position: fixed;
   top: 50%;
-  right: 79%;
+  left:-90px;
   -webkit-transform: rotate(-90deg);
   z-index: 1000;
 
