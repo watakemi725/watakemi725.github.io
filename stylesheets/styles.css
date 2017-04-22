@@ -57,8 +57,62 @@
        url('../fonts/Noto-Sans-700italic/Noto-Sans-700italic.ttf') format('truetype'),
        url('../fonts/Noto-Sans-700italic/Noto-Sans-700italic.svg#NotoSans') format('svg');*/
 }
+/*---------------実験-------------*/
+.header-hero2 {
+    background: #000000;
+    padding: 0;
+    margin: 54px 0;
+}
+.header-hero2 h1 {
+  padding: 0;
+  margin: 0;
+  line-height: 1;
+  font-weight: normal;
+  font-size: 17px;
+  letter-spacing: 3px;
+  clear: none;
+  color: #ffffff;
+  font-family: 'Lato', sans-serif;
+}
 
-.header-hero {
+.header-hero2 ul {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-around;
+  margin: 30px 0px -10px;
+  padding: 0px;
+  list-style-type: none;
+
+    /*margin: 33px 0 0;*/
+    /*padding: 0;*/
+    font-size: 12px;
+    letter-spacing: 2px;
+    font-family: 'Lato', sans-serif;
+}
+.header-hero2 ul li {
+    float: left;
+    margin-right: 88px;
+    line-height: 8px;
+    color: #ffffff;
+}
+.header-hero2 ul li :hover{
+background: #ffffff;
+color: #000000;
+}
+.header-hero2 ul li a{
+  color: #ffffff;
+}
+.header-hero2 ul li.last {
+    float: right;
+    margin-right: 0px;
+    text-shadow: none;
+}
+
+
+
+/*----------------------------------------*/
+
+/*.header-hero {
     background: #000000;
     padding: 0;
     margin: 54px 0;
@@ -101,9 +155,9 @@ color: #000000;
     float: right;
     margin-right: 0px;
     text-shadow: none;
-}
+}*/
 
-
+/*-------------上は試しにコメントアウト-------------*/
 
 
 body {
@@ -278,6 +332,7 @@ header ul a strong {
   display:block;
   color:#222;
 }
+
 
 section {
   /*width:500px;*/
