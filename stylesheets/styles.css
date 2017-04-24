@@ -119,6 +119,13 @@
     z-index: 1000;
 
   }
+
+  #topImage{
+    width: 70%;
+    height: 70%;
+     display: block;
+     margin: 10px auto;
+  }
 }
 
 
@@ -171,6 +178,13 @@
     -webkit-transform: rotate(-90deg);
     z-index: 1000;
 
+  }
+
+  #topImage{
+    width: 50%;
+    height: 50%;
+     display: block;
+     margin: 200px auto;
   }
 
 }
@@ -278,12 +292,7 @@ z-index: 20000;
 }
 
 
-#topImage{
-  width: 50%;
-  height: 50%;
-   display: block;
-   margin: 200px auto;
-}
+
 
 body {
   background-color: #fff;
