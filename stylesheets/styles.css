@@ -73,7 +73,7 @@
     line-height: 1;
     font-weight: normal;
     font-size: 28px;
-    letter-spacing: 3px;
+    letter-spacing: 5px;
     clear: none;
     color: #ffffff;
     font-family: 'Lato', sans-serif;
@@ -95,7 +95,7 @@
   }
   .header-hero ul li {
       float: left;
-      margin-top: 4px;
+      margin-top: 8px;
       margin-right: 48px;
       line-height: 20px;
       color: #ffffff;
