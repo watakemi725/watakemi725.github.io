@@ -109,6 +109,16 @@
     -webkit-justify-content: space-between;
     justify-content: space-between;
   }
+
+  .contactface{
+
+    position: fixed;
+    top: 50%;
+    left:-105px;
+    -webkit-transform: rotate(-90deg);
+    z-index: 1000;
+
+  }
 }
 
 
@@ -153,7 +163,15 @@
       line-height: 8px;
       color: #ffffff;
   }
+  .contactface{
 
+    position: fixed;
+    top: 50%;
+    left:-90px;
+    -webkit-transform: rotate(-90deg);
+    z-index: 1000;
+
+  }
 
 }
 .header-hero ul li :hover{
@@ -524,7 +542,7 @@ color: #ffffff;
 
 
 
-.contactface{
+/*.contactface{
 
   position: fixed;
   top: 50%;
@@ -532,7 +550,7 @@ color: #ffffff;
   -webkit-transform: rotate(-90deg);
   z-index: 1000;
 
-}
+}*/
 .contactface a{
   margin: 0 2px;
   padding: 2px;
