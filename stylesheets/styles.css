@@ -60,9 +60,24 @@
 /*---------------実験-------------*/
 
 
-@media screen and (max-width:600px) {
+@media screen and (max-width:748px) {
 	/*　画面サイズが768px以下の場合、ここのスタイルを読み込む　*/
-
+  .header-hero {
+      background: #000000;
+      padding: 0;
+      margin: 54px 0;
+  }
+  .header-hero h1 {
+    padding: 0;
+    margin: 0;
+    line-height: 1;
+    font-weight: normal;
+    font-size: 28px;
+    letter-spacing: 3px;
+    clear: none;
+    color: #ffffff;
+    font-family: 'Lato', sans-serif;
+  }
   .header-hero ul {
     display: flex;
     /*flex-flow: row;*/
@@ -74,14 +89,15 @@
 
       /*margin: 33px 0 0;*/
       /*padding: 0;*/
-      font-size: 12px;
+      font-size: 18px;
       letter-spacing: 2px;
       font-family: 'Lato', sans-serif;
   }
   .header-hero ul li {
       float: left;
-      margin-right: 88px;
-      line-height: 16px;
+      margin-top: 4px;
+      margin-right: 48px;
+      line-height: 20px;
       color: #ffffff;
   }
 
@@ -97,26 +113,26 @@
 
 
 
-.header-hero {
-    background: #000000;
-    padding: 0;
-    margin: 54px 0;
-}
-.header-hero h1 {
-  padding: 0;
-  margin: 0;
-  line-height: 1;
-  font-weight: normal;
-  font-size: 17px;
-  letter-spacing: 3px;
-  clear: none;
-  color: #ffffff;
-  font-family: 'Lato', sans-serif;
-}
+
 
 @media screen and (min-width:768px){
 	/*　画面サイズが768px～1024pxの間は、ここのスタイルを読み込む　*/
-
+  .header-hero {
+      background: #000000;
+      padding: 0;
+      margin: 54px 0;
+  }
+  .header-hero h1 {
+    padding: 0;
+    margin: 0;
+    line-height: 1;
+    font-weight: normal;
+    font-size: 17px;
+    letter-spacing: 3px;
+    clear: none;
+    color: #ffffff;
+    font-family: 'Lato', sans-serif;
+  }
   .header-hero ul {
     display: flex;
     flex-flow: row;
