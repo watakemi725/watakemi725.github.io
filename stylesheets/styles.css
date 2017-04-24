@@ -451,6 +451,7 @@ color: #ffffff;
 .narabe {
   display: flex;
   flex-flow: row;
+
 }
 .narabe img {
   width: 25%;
