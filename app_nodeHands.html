@@ -1,0 +1,108 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>watakemi725 Portfolio Site by watakemi725</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/github-light.css">
+    <meta name="viewport" content="width=device-width">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+
+      <header>
+
+        <div class="header-hero">
+          <h1>TAKEMI WATANUKI</h1>
+          <ul>
+            <li><a href="/index">TOP</a></li>
+            <li><a href="/app">APP</a></li>
+            <li><a href="/hard">HARD</a></li>
+            <li><a href="/design">DESIGN</a></li>
+            <li><a href="/others">OTHERS</a></li>
+            <li class="last"><a href="/biography">BIOGRAPHY</a></li>
+            <!-- <li><a href="https://www.facebook.com/naonori.yago" target="_blank">FACEBOOK</a></li>
+            <li class="last"><a href="https://www.instagram.com/yagonaonori/" target="_blank">INSTAGRAM</a></li> -->
+          </ul>
+        <div style="clear:both;"></div>
+      </div>
+
+
+        <!-- <p class="view"><a href="https://github.com/watakemi725">View My GitHub Profile</a></p>
+        <p class="view"><a href="https://github.com/watakemi725">HOME</a></p>
+        <p class="view"><a href="https://github.com/watakemi725">APP</a></p>
+        <p class="view"><a href="https://github.com/watakemi725">HARDWARE</a></p>
+        <p class="view"><a href="https://github.com/watakemi725">GRAPHIC</a></p> -->
+
+      </header>
+    <!-- </div> -->
+
+      <section>
+        <!-- <h3>
+<a id="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages" aria-hidden="t=rue"><span aria-hidden="true" class="octicon octicon-link"></span></a>Welcome to GitHub Pages.</h3> -->
+<p><strong>node hands</strong></p>
+<div class="box1">
+  <img src="images/app/nodehands/nodepic1.JPG" alt="">
+</div>
+<div class="box1">
+  <iframe width="560" height="315" src="https://www.youtube.com/watch?v=eP1NN5YAfAA&t=27s" frameborder="0" allowfullscreen></iframe>
+</div>
+<br>
+<br>
+<p><strong>概要</strong></p>
+<p>“うごめき”とは、似たような物質が少しずつ動き回る様子のことを指す。アリの大群や魚の群れといった集団の動きの中からこのうごめきとは見えるものである。私はこの目に見えるうごめきというものに強い興味をもちつつも、目に見えない”うごめき”がインターネット上から感じる瞬間がある。媒介するSNSやツールは様々だが、情報のやりとりというものに対して生物の群のようなうごめきを感じる。本作品では目に見えないうごめきを情報移動の表象として人の手をした機械とモバイル端末のユニットを20台用いて制作した作品である。
+“情報”というものの最末端には必ず人がいる。情報を作り、”発信する人”と情報を受け取り様々な解釈をする”受信する人”である。これは情報伝播すべてにおいて共通することだと考える。このため人の体の一部だけである”手”をモチーフとした。また手の色はなるべく動きだけに注目してもらうためにも色は白くし、肌色など見た目上の不気味の谷のような現象がおこらないように心がけた。
+本作品を通して現代のコミュニケーションが親指一つで済んでしまうという虚しさや、目に見えない情報のうごめきから群れのような生物らしさを感じてもらえたら幸いである。
+</p>
+<br>
+<br>
+<p><strong>技術概要</strong></p>
+<p>iPod Touchをモバイル端末と見立て、サーボモーター2台が親指の2軸の動きを制御する手型ロボットがiPod端末を通して20台の間で通信を行う。あたかも人が端末を操作しているような見た目となる。端末同士の通信はOSC通信でおこなっており、端末内では自作したアプリが稼働している。</p>
+<br>
+<p><strong>アプリ</strong></p>
+<p>iOSアプリをswiftを用いて実装した。iPad上で見える全体の情報の動きは生物の群のような動きをベースとしたものである。これまでにも群のうごきというものをプログラムで再現しようと試みて来た。今回は添付した映像のようなものとなっているが、今後は別のパターンでの情報のやりとりも試みている。</p>
+<div class="box1">
+  <img src="images/app/nodehands/nodepic2.png" alt="">
+</div>
+<br>
+
+<p><strong>サーボ制御</strong></p>
+<p>iPod端末のイヤホンジャックから特定の周波数を発生させることで、サーボモーターを制御している。いくつかの角度をあらかじめ端末に記憶させておき、その各段階をスムーズに動作することであたかも人が操作しているような手の動きをめざした。</p>
+<div class="box1">
+  <img src="images/app/nodehands/nodepic3.JPG" alt="">
+</div>
+<br>
+<p><strong>通信まわり</strong></p>
+<p>各端末がどのようなデータをもとに動いているかという点についてだが、インターネット上でのやりとりには大きく分けて2種類の情報のやりとりがあると考えている。まず相互に情報を受けわたすメールやチャット、電話などといったやりとり。次に、一方的に情報を受けるやりとり、例としてはtwitterやfacebookなどのsnsだ。本作品では前者のやりとりをベースとした動きをおこなっている。
+全体のやりとりが可視化されたiPadの画面を用いて説明する。長方形のアイコンが一つの端末とみたて、交互に行き交う丸が違いにやりとりを行う情報である。これを互いに送り返し合うが、決して一定のリズムとはならない。なぜなら、受信した情報は2段階のステップを踏まなければ送り出されない。”受信箱”、”送信準備完了箱”の二つを各端末はもっており、”受信箱”の先頭のものを端末をもっている仮装のユーザーが確認次第”送信準備完了箱”に移動し、その後に順番がくるとやっと送り出されるのだ。この”受信箱を確認する”動作と”送信準備完了箱から送信する”動作は同時にはできずどちらかの動作をするか判断しなければならない。この判断する閾値は各端末が固有の値をもっており、操作スピードも各々違っている。いわゆる仮装ユーザーの個性と想定して実装した。これらの理由により、決して同じパターンの情報の動きは繰り返されず、うごめきは途絶えず、繰り返しカオス状態となり、どこかしら群のような生物らしいふるまいを感じることができるのではないかと私は考える。
+</p>
+<br>
+<p><strong>これまで</strong></p>
+<p>私はもともと幼少期の頃から蟻の群れを観察することがとても好きだった。群れのなかでも一匹ずつを見てみるとなにかしらの目的があって動いている。それを全体として見たときにまた別の様子がみえてくる、全体が大きく形を変えていくなど、群れというものにとても魅了されるようになった。それ以来、生物の群れや美術作品でも群れのように見える何かしらの集合体の動きにとても惹かれる。自身でもこれまで制作してきた作品でも”A/D clock”はアナログ時計の秒針と短針の形状が数字を型取り、デジタル時計となるiOSアプリや、”iPod Jockey”(ISCA2016優秀賞)や”crawlMob”といったiPod端末を20台ほど用いる作品を制作してきた。モバイル端末を群れの一員とした作品である。
+今年の夏頃からは”うごめき”というキーワードを元に作品制作を行って来た。大学院のオープンキャンパスでは”ugomeki vol.0”という20台のiPad mini に自分がうごめきを感じるものや、実際にプログラムしたプロトタイプ映像80個ほどをランダムに再生させる作品を制作した。その中でも今回は目に見えないうごめきとして、SNSやモバイル端末を使用している時の情報の出入り、情報がインターネット上を飛び交っている状況から目に見えないうごめきを感じるという所に着目して作品制作をおこなった。
+</p>
+<div class="box1">
+  <img src="images/app/nodehands/ugomekiFig.png" alt="">
+</div>
+<br>
+<p><strong>今後の展望</strong></p>
+<p>展示形態やどのような動作に基づいて動くのかという点に関してはまだ広げられると考えているため、今後さらに他のバリエーションを考え試していきたい。”うごめき”のもつ”ずっとみていられる”、視覚的快楽や中毒となってしまう点について今後さらに考えを深めていきたいと考えている。
+</p>
+<br>
+
+
+
+      </section>
+      <footer>
+        <p><small>© Takemi Watanuki 2017</small></p>
+      </footer>
+    </div>
+    <script src="javascripts/scale.fix.js"></script>
+
+  </body>
+</html>
