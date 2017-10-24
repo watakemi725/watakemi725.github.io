@@ -63,6 +63,7 @@
 @media screen and (max-width:748px) {
 	/*　画面サイズが768px以下の場合、ここのスタイルを読み込む　*/
   .header-hero {
+    /*background: #FFFFFF;*/
       background: #000000;
       padding: 0;
       margin: 54px 0;
@@ -98,7 +99,8 @@
       margin-top: 8px;
       margin-right: 48px;
       line-height: 20px;
-      color: #ffffff;
+      /*color: #ffffff;*/
+      color: #000;
   }
 
 
@@ -126,6 +128,15 @@
      display: block;
      margin: 10px auto;
   }
+
+  body{
+    font-family: 'Lato', sans-serif;
+    /*color:#727272;*/
+    color:#fff;
+
+
+    font-weight:200;
+  }
 }
 
 
@@ -135,7 +146,8 @@
 @media screen and (min-width:768px){
 	/*　画面サイズが768px～1024pxの間は、ここのスタイルを読み込む　*/
   .header-hero {
-      background: #000000;
+    background: #FFFFFF;
+      /*background: #000000;*/
       padding: 0;
       margin: 54px 0;
   }
@@ -147,7 +159,8 @@
     font-size: 17px;
     letter-spacing: 3px;
     clear: none;
-    color: #ffffff;
+    /*color: #ffffff;*/
+    color: #000000;
     font-family: 'Lato', sans-serif;
   }
   .header-hero ul {
@@ -168,7 +181,8 @@
       float: left;
       margin-right: 88px;
       line-height: 8px;
-      color: #ffffff;
+      /*color: #ffffff;*/
+      color: #000000;
   }
   .contactface{
 
@@ -189,11 +203,15 @@
 
 }
 .header-hero ul li :hover{
-background: #ffffff;
-color: #000000;
+/*background: #ffffff;
+color: #000000;*/
+background: #000;
+color: #fff;
 }
 .header-hero ul li a{
-  color: #ffffff;
+  /*color: #ffffff;*/
+  color: #000;
+
 }
 .header-hero ul li.last {
     float: right;
@@ -295,11 +313,16 @@ z-index: 20000;
 
 
 body {
-  background-color: #fff;
+  /*background-color: #fff;*/
+background-color: #000;
   padding:50px;
+
   /*font: 14px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;*/
   font-family: 'Lato', sans-serif;
-  color:#727272;
+  /*color:#727272;*/
+  color:#fff;
+
+
   font-weight:400;
 }
 
@@ -568,8 +591,10 @@ color: #ffffff;
   font-size: 13px;
 
   letter-spacing: 2px;
-  color: #ffffff;
-  background: #000000;
+  /*color: #ffffff;
+  background: #000000;*/
+  color: #000;
+  background: #fff;
 
 }
 
@@ -625,8 +650,8 @@ footer {
   }
 
   section {
-    border:1px solid #e5e5e5;
-    border-width:1px 0;
+    border:0px solid #e5e5e5;
+    border-width:0px 0;
     padding:20px 0;
     margin:0 0 20px;
   }
@@ -635,7 +660,7 @@ footer {
     font-size: 10px;
     letter-spacing: 1px;
     line-height: 20px;
-    color: #000000;
+    color: #fff;
   }
 /*
   header a small {
