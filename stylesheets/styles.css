@@ -63,8 +63,8 @@
 @media screen and (max-width:748px) {
 	/*　画面サイズが768px以下の場合、ここのスタイルを読み込む　*/
   .header-hero {
-    /*background: #FFFFFF;*/
-      background: #000000;
+    background: #FFFFFF;
+      /*background: #000000;*/
       padding: 0;
       margin: 54px 0;
   }
@@ -76,7 +76,10 @@
     font-size: 26px;
     letter-spacing: 3px;
     clear: none;
-    color: #ffffff;
+    /*color: #ffffff;*/
+    color: #000000;
+
+
     font-family: 'Lato', sans-serif;
   }
   .header-hero ul {
