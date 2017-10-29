@@ -194,7 +194,7 @@
 
     position: fixed;
     top: 50%;
-    left:-90px;
+    left:-130px;
     -webkit-transform: rotate(-90deg);
     z-index: 1000;
 
