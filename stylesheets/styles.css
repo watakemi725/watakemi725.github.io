@@ -63,7 +63,8 @@
 @media screen and (max-width:748px) {
 	/*　画面サイズが768px以下の場合、ここのスタイルを読み込む　*/
   .header-hero {
-    background: #FFFFFF;
+    background: #C0C0C0;
+    /* background: #FFFFFF; */
       /*background: #000000;*/
       padding: 0;
       margin: 54px 0;
